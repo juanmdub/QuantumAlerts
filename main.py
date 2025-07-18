@@ -5,6 +5,9 @@ CHAT_ID = os.getenv("CHAT_ID")
 
 bot = telegram.Bot(token=TOKEN)
 
+# Enviar mensaje de prueba al iniciar
+bot.send_message(chat_id=CHAT_ID, text="✅ Bot desplegado correctamente y funcionando en Render.")
+
 # Feeds que vamos a monitorear
 FEEDS = {
     "Rigetti": "https://investors.rigetti.com/ir-resources/rss-feeds",
