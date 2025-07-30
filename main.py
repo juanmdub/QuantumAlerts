@@ -33,3 +33,6 @@ if __name__ == '__main__':
     print("Bot iniciado...")
     fetch_and_notify()
     scheduler.start()
+
+trigger runtime detection
+
