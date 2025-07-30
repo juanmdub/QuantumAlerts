@@ -34,5 +34,4 @@ if __name__ == '__main__':
     fetch_and_notify()
     scheduler.start()
 
-trigger runtime detection
 
